@@ -17,7 +17,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "onCreateCommand": "/bin/bash ./.devcontainer/setup.sh",
+  "onCreateCommand": "/usr/bin/env bash -c \"./.devcontainer/setup.sh\"",
 
   // Configure tool-specific properties.
   "customizations": {
